@@ -72,11 +72,7 @@ function showLobby(name, roomCode) {
         </div>
         <div class="player-slot player-empty">
           <span class="player-icon">○</span>
-          <span class="player-name">Waiting for player...</span>
-        </div>
-        <div class="player-slot player-empty">
-          <span class="player-icon">○</span>
-          <span class="player-name">Waiting for player...</span>
+          <span class="player-name">Waiting for opponent...</span>
         </div>
       </div>
       <p class="waiting-text">Waiting for players to join...</p>
