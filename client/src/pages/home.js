@@ -22,7 +22,7 @@ export function render() {
             .sort((a, b) => b.updatedAt - a.updatedAt)
             .map(
               (game) => `
-            <a href="/host?game=${encodeURIComponent(game.id)}" data-link class="game-row">
+            <a href="/join?continue=${encodeURIComponent(game.id)}" data-link class="game-row">
               <span class="game-name">${game.name || 'Untitled Game'}</span>
               <span class="game-date">${new Date(game.updatedAt).toLocaleString()}</span>
             </a>
